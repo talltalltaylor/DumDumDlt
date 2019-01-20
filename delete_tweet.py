@@ -17,7 +17,7 @@ auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth, wait_on_rate_limit=True)
 
-keywords = "ENTER YOUR KEYWORD HERE!"
+keyword = "ENTER YOUR KEYWORD HERE!"
 
 tweets = api.user_timeline(count=200)
 
